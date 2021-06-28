@@ -1,0 +1,236 @@
+
+.title {
+    font-family: 'nucleo-icons';
+    padding-left: 30%;
+    font-size: 30px;
+    color:darkslategray;
+    margin-bottom: -70px;
+    
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; }
+
+
+h1, .h1 {
+  font-size: 3.5em;
+  line-height: 1.15;
+  margin-bottom: 30px; }
+  h1 small, .h1 small {
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: .8; }
+
+h2, .h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px; }
+
+h3, .h3 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  line-height: 1.4em; }
+
+h4, .h4 {
+  font-size: 1.714em;
+  line-height: 1.45em;
+  margin-top: 30px;
+  margin-bottom: 15px; }
+  h4 + .category,
+  h4.title + .category, .h4 + .category,
+  .h4.title + .category {
+    margin-top: -10px; }
+
+h5, .h5 {
+  font-size: 1.57em;
+  line-height: 1.4em;
+  margin-bottom: 15px; }
+
+h6, .h6 {
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+p.description {
+  font-size: 1.14em; }
+
+.title {
+  font-weight: 700; }
+  .title.title-up {
+    text-transform: uppercase; }
+    .title.title-up a {
+      color: #202020;
+      text-decoration: none; }
+  .title + .category {
+    margin-top: -10px; }
+
+.description,
+.card-description,
+.footer-big p,
+.card .footer .stats {
+  color: #9A9A9A;
+  font-weight: 300; }
+
+.category,
+.card-category {
+  text-transform:  none;
+  font-weight: 400;
+  color: #686868;
+  font-size: 0.7142em; }
+
+.card-category {
+  font-size: 1em; }
+
+
+
+
+
+
+body {
+  color: #2c2c2c;
+  font-size: 14px;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; }
+
+.main {
+  position: relative;
+  background: #FFFFFF; }
+
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    color: #252422;
+    margin-bottom: 20px;
+    position: relative;
+    border: 0 none;
+    transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+}
+
+    .card .card-body {
+        padding: 15px 15px 5px 15px;
+    }
+
+        .card .card-body {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+    .card .card-header {
+        padding: 15px 15px 0;
+        border: 0;
+    }
+
+        .card .card-header:not([data-background-color]) {
+            background-color: transparent;
+        }
+
+        .card .card-header .card-title {
+            margin-top: 10px;
+        }
+
+  
+
+    .card .category{
+        font-size: 12px;
+        text-align: center;
+        font-weight: 500;
+        padding-bottom: 15px;
+    }
+
+    .card label {
+        font-size: 0.8571em;
+        margin-bottom: 5px;
+        color: #9A9A9A;
+    }
+
+    .card .card-footer {
+        background-color: transparent;
+        border: 0;
+    }
+
+        .card .card-footer {
+            margin-right: 5px;
+            position: relative;
+            top: 0px;
+            color: #66615B;
+        }
+
+        .card .card-footer  {
+            margin: 0;
+        }
+
+    .card.card-plain {
+        background-color: transparent;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+        .card.card-plain .card-body {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .card.card-plain {
+            border-radius: 12px;
+        }
+
+.card-plain {
+    background: transparent;
+    box-shadow: none;
+}
+
+    .card-plain .card-header,
+    .card-plain .card-footer {
+        margin-left: 0;
+        margin-right: 0;
+        background-color: transparent;
+    }
+
+    .card-plain:not(.card-subcategories).card-body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+ .card-header .card-title {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+ .card-header .card-category {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+.main-panel {
+  position: relative;
+  float: left;
+  width: calc(100%);
+  background-color: #f4f3ef;
+  transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1); }
+  .main-panel > .content {
+    padding: 0 30px 30px;
+    min-height: calc(100vh - px);
+    margin-top: 93px; }
+  .main-panel .header {
+    margin-bottom: 50px; }
+
+
+
+.footer {
+  padding: 24px 0; }
+  .footer {
+    background-color: #f2f2f2; }
+  
+
+  .footer .copyright {
+    font-size: 0.8571em;
+    line-height: 1.8; }
+
+
+
