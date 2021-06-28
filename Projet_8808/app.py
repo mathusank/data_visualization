@@ -1,13 +1,5 @@
 
 # -*- coding: utf-8 -*-
-
-'''
-    File name: app.py
-    Author: Alexia Auddino
-    Course: INF8808
-    Python Version: 3.8
-
-'''
 import json
 
 import dash
